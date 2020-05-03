@@ -13,4 +13,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Maked by
 
-* Adam H. Agbaria 
+* Adam H. Agbaria
