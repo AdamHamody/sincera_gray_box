@@ -1,11 +1,11 @@
 # bgu_physics_labs
 
-This package contains functions that help  for classification
+This package contains helpful functions/classes for classification
 
 ## Getting Started
 
 To install the package:\
-      pip install sincera_gray_box
+      pip install gray_box_clf
 
 ## License
 
