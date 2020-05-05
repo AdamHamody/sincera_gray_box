@@ -9,7 +9,7 @@ To install the package:\
 
 ## Example
 
-->>!pip install gray_box_clf\
+->>!pip install gray_box_clf
 
 ->> from gray_box_clf.classification_functions import PraperClassified\
 ->>import numpy as np\
@@ -22,9 +22,9 @@ To install the package:\
 ->>model.grid_search(n_features_list=[10, 15, "all"])\
 ->>model.k_folds()\
 ->>model.show_roc()\
-->>print(model.class_report_)\
+->>print(model.class_report_)
 
-->>model.best_model_\
+->>model.best_model_
 
 ## License
 
