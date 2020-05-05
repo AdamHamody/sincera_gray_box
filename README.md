@@ -17,12 +17,8 @@ To install the package:\
 ->>from sklearn.datasets import make_classification\
 
 ->>X,y = make_classification(random_state=10)\
-->>model=PraperClassified(   X,\
-                            y,\
-                            classifier=[{'cls': SVC( probability=True,), 'name': 'svm'},\
-                                        {'parametrs': {'C': [1,10], 'kernel': ["linear", "rbf"]}}],\
-                            optimizer='accuracy'\
-                            )\
+->>model=PraperClassified(X,y,classifier=[{'cls': SVC( probability=True,), 'name': 'svm'},{'parametrs': {'C': [1,10], 'kernel': ["linear", "rbf"]}}], optimizer='accuracy')
+                           
 ->>model.grid_search(n_features_list=[10, 15, "all"])\
 ->>model.k_folds()\
 ->>model.show_roc()\
