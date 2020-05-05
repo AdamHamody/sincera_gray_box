@@ -1,6 +1,7 @@
 # Gray Box Classification
 
-This package contains helpful functions/classes for classification
+This package contains helpful functions/classes for classification. What makes the package comfortable is the ability to perform grid-search in order to  select the optimum data features, hyper-parameters, and classifiers as needed.
+There are three feature selection methods, "chi2", "ANOVA F-value","Kullback–Leibler divergence".
 
 ## Getting Started
 
