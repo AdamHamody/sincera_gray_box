@@ -14,7 +14,7 @@ To install the package:\
 ->> from gray_box_clf.classification_functions import PraperClassified\
 ->>import numpy as np\
 ->>from sklearn.svm import SVC\
-->>from sklearn.datasets import make_classification\
+->>from sklearn.datasets import make_classification
 
 ->>X,y = make_classification(random_state=10)\
 ->>model=PraperClassified(X,y,classifier=[{'cls': SVC( probability=True,), 'name': 'svm'},{'parametrs': {'C': [1,10], 'kernel': ["linear", "rbf"]}}], optimizer='accuracy')
